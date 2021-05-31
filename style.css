@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display:flex;
+    background-color: #ae275f;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list a:hover{
+    color:grey;
+}
+.rightNav{
+    width:30%;
+    text-align:right;
+    padding:20px 30px;
+}
+.rightNav a{
+    text-decoration:none;
+    color: white;
+}
+.rightNav a:hover{
+    color:grey;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right:5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width:33px;
+    height: 4px;
+    margin:5px 3px;
+    background-color: white;
+}
+.box-main{
+    display: flex;
+    padding: 20px;
+}
+.carousel{
+    width: 60%;
+    margin-right: 20px;
+    
+}
+.carousel-caption a{
+    color: #ae275f;
+}
+
+.item img{
+    width: 100%;
+    border:solid;
+}
+.secondhalf{
+    width: 40%;
+}
+.second img{
+    width: 100%;
+    max-height: 260px;
+    border: solid;
+}
+.image-button{
+    text-align: center;
+}
+.btn-link{
+    background-color:  #ae275f;
+    color:white;
+    border-radius: 3px;
+}
+.content{
+    display: flex;
+    padding: 20px;
+}
+.first{
+    width: 50%;
+    border: solid;
+    margin-right: 20px;
+    background-color:#ae275f;
+    text-align: center;
+    border-radius:4px;
+    padding-top: 17px;
+    transition: font-size 10s;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.first a:hover{
+    color: lightgrey;
+    font-size: 20px;
+}
+.sec{
+    border: solid;
+    width: 50%;
+    display: flex;
+    border-radius:4px;
+    padding: 15px;
+}
+
+.third{
+    padding:20px;
+}
+.third p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fourth{
+    padding: 20px;
+    display: flex;
+}
+.fourth1{
+    width: 25%;
+    margin-right: 20px;
+    border: solid grey;
+    text-align: center;
+    padding: 30px;
+    transition: font-size 10s;
+}
+.fourth1 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.fourth1 a:hover{
+    color:#ae275f;
+    font-size: 30.5px;
+    
+}
+.fourth2{
+    width: 25%;
+    margin-right: 20px;
+    border: solid grey;
+    text-align: center;
+    padding: 30px;
+    transition: font-size 10s;
+}
+.fourth2 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.fourth2 a:hover{
+    color:#ae275f;
+    font-size: 30.5px;
+}
+.fourth3{
+    width: 25%;
+    margin-right: 20px;
+    border: solid grey;
+    text-align: center;
+    padding: 30px;
+    transition: font-size 10s;
+}
+.fourth3 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.fourth3 a:hover{
+    color:#ae275f;
+    font-size: 30.5px;
+}
+.fourth4{
+    width: 25%;
+    border: solid grey;
+    text-align: center;
+    padding: 30px;
+    transition: font-size 10s;
+}
+.fourth4 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.fourth4 a:hover{
+    color:#ae275f;
+    font-size: 30.5px;
+}
+.fifth{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fifth button{
+    background-color: #ae275f;
+    height: 40px;
+    width: 150px;
+}
+.sixth{
+    padding: 20px;
+    background-color: lightgrey;
+}
+.sixth0{
+    display:flex;
+    margin-top: 20px;
+}
+
+.sixth1{
+    width: 33%;
+    margin-right: 20px;
+    position: relative;
+}
+.sixth1 img{
+    vertical-align: middle;
+    width: 100%;
+}
+.sixth1 .sixth1-1{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.sixth1-1 h2{
+    text-align: center;
+}
+.sixth1-1 p{
+    text-align: center;
+}
+.sixth1-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ae275f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.sixth1:hover .sixth1-2 {
+    height: 65%;
+}
+.sixth1-2 a{
+    text-decoration: none;
+    color: white;
+}
+.sixth1-2 p{
+    margin-top: 20px;
+    color: white;
+}
+.sixth2{
+    width: 33%;
+    margin-right: 20px;
+    position: relative;
+}
+.sixth2 img{
+    vertical-align: middle;
+    width: 100%;
+}
+.sixth2 .sixth2-2{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.sixth2-2 h2{
+    text-align: center;
+}
+.sixth2-2 p{
+    text-align: center;
+}
+.sixth2-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ae275f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.sixth2:hover .sixth2-3 {
+    height: 65%;
+}
+.sixth2-3 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.sixth2-3 p{
+    margin-top: 20px;
+    color: white;
+}
+.sixth3{
+    width: 33%;
+    position: relative;
+}
+.sixth3 img{
+    vertical-align: middle;
+    width: 100%;
+}
+.sixth3 .sixth3-3{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+}
+.sixth3-3 h2{
+    text-align: center;
+}
+.sixth3-3 p{
+    text-align: center;
+}
+.sixth3-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ae275f;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.sixth3:hover .sixth3-4 {
+    height: 65%;
+}
+.sixth3-4 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.sixth3-4 p{
+    margin-top: 20px;
+    color: white;
+}
+.info{
+    text-align: center;
+}
+.info button{
+    background-color: #ae275f;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    
+}
+
+footer{
+    display:flex;
+    background-color: #444;
+    margin-top:20px;
+}
+.footer1{
+    width: 30%;
+    padding: 20px;
+}
+.footer1 p{
+    color:white;
+}
+.footer2{
+    width: 70%;
+}
+.footer2-1{
+    display: flex;
+    float: right;
+}
+.footer2-1 li{
+    list-style: none;
+    padding: 20px;
+}
+.footer2-1 li a{
+    text-decoration: none;
+    color: white;
+}
+.footer2-1 li a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+@media only screen and (max-width:1140px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.7s ease-out;
+        height:350px;
+    }
+    .nav-list{
+        flex-direction: column;
+        
+    }
+    .rightNav{
+        text-align: center;
+        padding:0;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav{
+        height:60px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .first{
+        width: 100%;
+        padding-bottom: 17px;
+    }
+    .sec{
+        width: 100%;
+    }
+    .box-main{
+        flex-direction: column;
+    }
+    .secondhalf {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .second img{
+        height: 100%;
+
+    }
+    .item img{
+        height: 100%;
+    }
+    .fourth{
+        flex-direction: column;
+    }
+    .fourth1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth4{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixth0{
+        flex-direction: column;
+    }
+    .sixth1{
+        width: 100%;
+    }
+    .sixth2{
+        width: 100%;
+    }
+    .sixth3{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer1{
+        width: 100%;
+        text-align: center;
+    }
+    .footer2{
+        width: 100%;
+    }
+    .footer2-1{
+        float:none;
+        flex-direction: column;
+        text-align: center;
+    }
+}
